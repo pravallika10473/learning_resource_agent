@@ -1,9 +1,10 @@
 import googleapiclient.discovery
 import json
+import os
 
 api_service_name = "youtube"
 api_version = "v3"
-DEVELOPER_KEY = "AIzaSyACfPK2zMTtIAo0uMWL1kKBTUocVd2I6Jw"  # Replace with your actual API key
+DEVELOPER_KEY = os.getenv('DEVELOPER_KEY')  
 
 youtube = googleapiclient.discovery.build(
     api_service_name, api_version, developerKey=DEVELOPER_KEY
