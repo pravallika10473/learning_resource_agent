@@ -3,6 +3,7 @@ from dotenv import load_dotenv
 from openai import OpenAI
 import json
 from function import search_youtube_videos
+import argparse
 
 # Load environment variables from .env file
 load_dotenv()
@@ -12,6 +13,12 @@ api_key = os.getenv('OPENAI_API_KEY')
 
 # Initialize the OpenAI client with the API key
 client = OpenAI(api_key=api_key)
+
+parser= argparse.ArgumentParser()
+
+parser.add_argument("--query", type=str, help="Query to gpt")
+args=parser.parse_args()
+query=args.query
 
 tools = [
     {
@@ -47,7 +54,7 @@ tools = [
 # Initial message to start the process
 messages = [
     {"role": "system", "content": "You are a helpful assistant who answers with high information in them, you have tools available if you need them and you can use tools as many times as you need to answer every aspect of the user request. Please pay close attention to every request of the user and provide exact answers"},
-    {"role": "user", "content": "Who are the top 3 AI researchers? and give resources from each one of them to learn Back Propogation"}
+    {"role": "user", "content": query}
 ]
 
 # Function to process the chat completion and handle tool calls
