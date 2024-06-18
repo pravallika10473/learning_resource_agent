@@ -1,10 +1,16 @@
 import googleapiclient.discovery
 import json
 import os
+from dotenv import load_dotenv
 
 api_service_name = "youtube"
 api_version = "v3"
-DEVELOPER_KEY = os.getenv('DEVELOPER_KEY')  
+# Load environment variables from .env file
+load_dotenv()
+
+# Access the API key from environment variables
+developer_key = os.getenv('DEVELOPER_KEY')
+DEVELOPER_KEY = developer_key
 
 youtube = googleapiclient.discovery.build(
     api_service_name, api_version, developerKey=DEVELOPER_KEY
