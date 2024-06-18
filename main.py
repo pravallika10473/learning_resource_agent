@@ -53,7 +53,10 @@ tools = [
 
 # Initial message to start the process
 messages = [
-    {"role": "system", "content": "You are a helpful assistant who answers with high information in them, you have tools available if you need them and you can use tools as many times as you need to answer every aspect of the user request. Please pay close attention to every request of the user and provide exact answers"},
+    {"role": "system", "content": "You are a smart research assistant. Use the tools to look up information. \
+You are allowed to make multiple calls (either together or in sequence). \
+Only look up information when you are sure of what you want. \
+If you need to look up some information before asking a follow up question, you are allowed to do that!"},
     {"role": "user", "content": query}
 ]
 
