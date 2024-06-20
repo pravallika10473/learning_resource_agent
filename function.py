@@ -22,7 +22,7 @@ def search_youtube_videos(keyword, channel_id=None, filter_keywords=None):
     search_request = youtube.search().list(
         part="snippet",
         q=keyword,
-        maxResults=5,  # Get the top 10 search results
+        maxResults=3,  # Get the top 10 search results
         type="video",  # Search for videos only
         channelId=channel_id if channel_id else None  # Add the channelId parameter if provided
     )

@@ -31,7 +31,7 @@ class Agent:
 
     def execute(self):
         completion = client.chat.completions.create(
-                        model="gpt-3.5-turbo", 
+                        model="gpt-4o", 
                         temperature=0,
                         messages=self.messages)
         return completion.choices[0].message.content
@@ -57,7 +57,7 @@ Returns a summary of suitable links from searching Youtube
 Example session:
 
 Question:Who are the top 3 Ai researchesrs? Give resources from all three of them on back propogation ?
-Thought: I should first list the top 3 Ai researchers, then I should use those names in searching for resources on you-tube.
+Thought: I should first list the top 3 Ai researchers, then I should use those names as keywords in searching for resources on you-tube.
 Action: search_youtube: Back Propogation by Gefrey Hinton
 PAUSE
 
@@ -198,7 +198,7 @@ def query(question, max_turns=5):
                 raise Exception("Unknown action: {}: {}".format(action, action_input))
             print(" -- running {} {}".format(action, action_input))
             observation = known_actions[action](action_input)
-            print("Observation:", observation)
+            # print("Observation:", observation)
             next_prompt = "Observation: {}".format(observation)
         else:
             return
@@ -207,5 +207,9 @@ if __name__ == "__main__":
     # parser = argparse.ArgumentParser()
     # parser.add_argument("question", type=str, help="The question to query.")
     # args = parser.parse_args()
-    
-    query("What are the subtopics I need to learn to implement backpropogation? and give resources to learn for each one of those subtopics")
+    parser= argparse.ArgumentParser()
+
+    parser.add_argument("--query", type=str, help="Query to gpt")
+    args=parser.parse_args()
+    question=args.query
+    query(question=question)
