@@ -10,6 +10,8 @@ search_youtube:
 e.g. search_youtube: Back propogation by 3Blue1Brown
 Returns a summary of suitable links from searching Youtube
 
+You use these tools just when you need it, you can add other resources as well.
+
 Example session:
 
 Question:Who are the top 3 Ai researchesrs? Give resources from all three of them on back propogation ?
