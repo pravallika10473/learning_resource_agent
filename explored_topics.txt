@@ -1,0 +1,159 @@
+URL: https://www.encyclopedia.com/science-and-technology/computers-and-electrical-engineering/computers-and-computing?page=0
+  Topic: Computers and Electrical Engineering
+  Topic: ABC
+  Topic: Abduction
+  Topic: Abi
+  Topic: abort
+  Topic: abstraction
+  Topic: accept
+  Topic: Acceptance testing
+  Topic: Access
+  Topic: access time
+  Topic: account
+  Topic: accumulator
+  Topic: accuracy
+  Topic: Ace
+  Topic: Acrobat
+  Topic: Actor
+  Topic: address
+  Topic: Adhocracy
+  Topic: Advanced Encryption Standard
+  Topic: AFIPS
+  Topic: agent
+URL: https://www.encyclopedia.com/science-and-technology/computers-and-electrical-engineering
+  Topic: Computers and Computing
+  Topic: Electrical Engineering
+URL: https://www.encyclopedia.com/science-and-technology/computers-and-electrical-engineering/computers-and-computing/abc
+  Topic: Computers and Electrical Engineering
+  Topic: Computers and Computing
+  Topic: programming language
+URL: https://www.encyclopedia.com/science-and-technology/computers-and-electrical-engineering/computers-and-computing/abduction
+  Topic: Computers and Electrical Engineering
+  Topic: Computers and Computing
+  Topic: Internet
+  Topic: inference
+  Topic: artificial intelligence
+  Topic: expert systems
+URL: https://www.encyclopedia.com/science-and-technology/computers-and-electrical-engineering/computers-and-computing/abi
+  Topic: Computers and Electrical Engineering
+  Topic: Computers and Computing
+URL: https://www.encyclopedia.com/science-and-technology/computers-and-electrical-engineering/computers-and-computing/abort
+  Topic: Computers and Electrical Engineering
+  Topic: Computers and Computing
+URL: https://www.encyclopedia.com/science-and-technology/computers-and-electrical-engineering/computers-and-computing/abstraction
+  Topic: Computers and Electrical Engineering
+  Topic: Computers and Computing
+  Topic: reservoir
+URL: https://www.encyclopedia.com/science-and-technology/computers-and-electrical-engineering/computers-and-computing/accept
+  Topic: Computers and Electrical Engineering
+  Topic: Computers and Computing
+  Topic: formal language
+  Topic: automaton
+URL: https://www.encyclopedia.com/science-and-technology/computers-and-electrical-engineering/computers-and-computing/acceptance
+  Topic: Computers and Electrical Engineering
+  Topic: Computers and Computing
+  Topic: testing
+  Topic: review
+  Topic: testing
+URL: https://www.encyclopedia.com/science-and-technology/computers-and-electrical-engineering/computers-and-computing/access
+  Topic: Computers and Electrical Engineering
+  Topic: Computers and Computing
+URL: https://www.encyclopedia.com/science-and-technology/computers-and-electrical-engineering/computers-and-computing/access-time
+  Topic: Computers and Electrical Engineering
+  Topic: Computers and Computing
+  Topic: magnetic disk
+  Topic: magnetic tape
+  Topic: disk drive
+  Topic: latency
+  Topic: time
+URL: https://www.encyclopedia.com/science-and-technology/computers-and-electrical-engineering/computers-and-computing/account
+  Topic: Computers and Electrical Engineering
+  Topic: Computers and Computing
+URL: https://www.encyclopedia.com/science-and-technology/computers-and-electrical-engineering/computers-and-computing/accumulator
+  Topic: Computers and Electrical Engineering
+  Topic: Computers and Computing
+  Topic: register
+  Topic: ALU
+  Topic: shift
+  Topic: cell
+  Topic: battery
+  Topic: succession
+  Topic: succession
+URL: https://www.encyclopedia.com/science-and-technology/computers-and-electrical-engineering/computers-and-computing/accuracy
+  Topic: Computers and Electrical Engineering
+  Topic: Computers and Computing
+  Topic: precision
+URL: https://www.encyclopedia.com/science-and-technology/computers-and-electrical-engineering/computers-and-computing/ace
+  Topic: Computers and Electrical Engineering
+  Topic: Computers and Computing
+URL: https://www.encyclopedia.com/science-and-technology/computers-and-electrical-engineering/computers-and-computing/acrobat
+  Topic: Computers and Electrical Engineering
+  Topic: Computers and Computing
+  Topic: portable
+  Topic: PostScript
+  Topic: OCR
+URL: https://www.encyclopedia.com/science-and-technology/computers-and-electrical-engineering/computers-and-computing/actor
+  Topic: Computers and Electrical Engineering
+  Topic: Computers and Computing
+URL: https://www.encyclopedia.com/science-and-technology/computers-and-electrical-engineering/computers-and-computing/address
+  Topic: Computers and Electrical Engineering
+  Topic: Computers and Computing
+URL: https://www.encyclopedia.com/science-and-technology/computers-and-electrical-engineering/computers-and-computing/adhocracy
+  Topic: Computers and Electrical Engineering
+  Topic: Computers and Computing
+  Topic: Internet
+  Topic: the Internet
+URL: https://www.encyclopedia.com/science-and-technology/computers-and-electrical-engineering/computers-and-computing/advanced
+  Topic: Computers and Electrical Engineering
+  Topic: Computers and Computing
+  Topic: Advanced Encryption Standard
+  Topic: Internet
+  Topic: Advanced Encryption Standard
+  Topic: the Internet
+  Topic: Computer Security
+URL: https://www.encyclopedia.com/science-and-technology/computers-and-electrical-engineering/computers-and-computing/afips
+  Topic: Computers and Electrical Engineering
+  Topic: Computers and Computing
+  Topic: Information Processing
+  Topic: IEEE
+  Topic: Information Processing
+URL: https://www.encyclopedia.com/science-and-technology/computers-and-electrical-engineering/computers-and-computing/agent
+  Topic: Computers and Electrical Engineering
+  Topic: Computers and Computing
+  Topic: data mining
+  Topic: distributed system
+  Topic: robotics
+URL: https://www.encyclopedia.com/science-and-technology/computers-and-electrical-engineering/computers-and-computing
+URL: https://www.encyclopedia.com/science-and-technology/computers-and-electrical-engineering/electrical-engineering
+URL: https://www.encyclopedia.com/science-and-technology/computers-and-electrical-engineering/computers-and-computing/programming
+URL: https://www.encyclopedia.com/science-and-technology/computers-and-electrical-engineering/computers-and-computing/internet
+URL: https://www.encyclopedia.com/science-and-technology/computers-and-electrical-engineering/computers-and-computing/inference#1O11inference
+URL: https://www.encyclopedia.com/science-and-technology/computers-and-electrical-engineering/computers-and-computing/artificial#1O11artificialintelligence
+URL: https://www.encyclopedia.com/science-and-technology/computers-and-electrical-engineering/computers-and-computing/expert-system#1O11expertsystems
+URL: https://www.encyclopedia.com/science-and-technology/technology/technology-terms-and-concepts/reservoir#1O13reservoir
+URL: https://www.encyclopedia.com/science-and-technology/computers-and-electrical-engineering/computers-and-computing/formal-language
+URL: https://www.encyclopedia.com/science-and-technology/technology/technology-terms-and-concepts/automaton#1O11automaton
+URL: https://www.encyclopedia.com/science-and-technology/computers-and-electrical-engineering/computers-and-computing/testing#1O11testing
+URL: https://www.encyclopedia.com/science-and-technology/computers-and-electrical-engineering/computers-and-computing/review#1O11review
+URL: https://www.encyclopedia.com/science-and-technology/computers-and-electrical-engineering/computers-and-computing/magnetic-disk
+URL: https://www.encyclopedia.com/science-and-technology/computers-and-electrical-engineering/electrical-engineering/magnetic-tape
+URL: https://www.encyclopedia.com/science-and-technology/computers-and-electrical-engineering/computers-and-computing/disk-drive
+URL: https://www.encyclopedia.com/science-and-technology/computers-and-electrical-engineering/computers-and-computing/latency#1O11latency
+URL: https://www.encyclopedia.com/science-and-technology/physics/physics/time
+URL: https://www.encyclopedia.com/science-and-technology/computers-and-electrical-engineering/computers-and-computing/register#1O11register
+URL: https://www.encyclopedia.com/science-and-technology/computers-and-electrical-engineering/computers-and-computing/alu#1O11ALU
+URL: https://www.encyclopedia.com/science-and-technology/computers-and-electrical-engineering/computers-and-computing/shift#1O11shift
+URL: https://www.encyclopedia.com/science-and-technology/biology-and-genetics/cell-biology/cell#1O142cell
+URL: https://www.encyclopedia.com/science-and-technology/computers-and-electrical-engineering/electrical-engineering/electric-battery#1O142battery
+URL: https://www.encyclopedia.com/science-and-technology/biology-and-genetics/environmental-studies/succession#1O14succession
+URL: https://www.encyclopedia.com/science-and-technology/biology-and-genetics/environmental-studies/succession#1O7succession
+URL: https://www.encyclopedia.com/science-and-technology/computers-and-electrical-engineering/computers-and-computing/precision#1O11precision
+URL: https://www.encyclopedia.com/science-and-technology/computers-and-electrical-engineering/computers-and-computing/portable#1O11portable
+URL: https://www.encyclopedia.com/science-and-technology/computers-and-electrical-engineering/computers-and-computing/postscript#1O11PostScript
+URL: https://www.encyclopedia.com/science-and-technology/computers-and-electrical-engineering/computers-and-computing/ocr#1O11OCR
+URL: https://www.encyclopedia.com/science-and-technology/computers-and-electrical-engineering/computers-and-computing/computer-6
+URL: https://www.encyclopedia.com/science-and-technology/computers-and-electrical-engineering/computers-and-computing/information-3
+URL: https://www.encyclopedia.com/science-and-technology/computers-and-electrical-engineering/computers-and-computing/ieee#1O11IEEE
+URL: https://www.encyclopedia.com/science-and-technology/computers-and-electrical-engineering/computers-and-computing/data-mining#1O11datamining
+URL: https://www.encyclopedia.com/science-and-technology/computers-and-electrical-engineering/computers-and-computing/distributed#1O11distributedsystem
+URL: https://www.encyclopedia.com/science-and-technology/computers-and-electrical-engineering/computers-and-computing/robotics#1O11robotics
