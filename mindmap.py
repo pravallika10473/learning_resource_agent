@@ -5,7 +5,7 @@ import re
 import httpx
 import json
 from function import search_youtube_videos
-from messages import system_message1, system_message2
+from messages import system_message3
 import argparse
 
 # Load environment variables from .env file
@@ -32,7 +32,7 @@ class Agent:
 
     def execute(self):
         completion = client.chat.completions.create(
-                        model="gpt-4o", 
+                        model="gpt-4o-mini", 
                         temperature=0,
                         messages=self.messages)
         return completion.choices[0].message.content
@@ -42,7 +42,7 @@ known_actions = {
 }
 
 action_re = re.compile('^Action: (\w+): (.*)$')   # python regular expression to selection action
-system_message = system_message1.strip()
+system_message = system_message3.strip()
 
 def query(question, max_turns=10):
     i = 0
