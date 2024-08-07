@@ -18,7 +18,27 @@ load_dotenv()
 openai.api_key = os.getenv('OPENAI_API_KEY')
 
 # Initialize the OpenAI LLM model
-llm = ChatOpenAI(model="gpt-3.5-turbo-0125")
+llm = ChatOpenAI(model="gpt-4o")
+
+messages = [
+    (
+        "system",
+        """You are a helpful summarizer. When user asks you a question like this, What are some interesting places in Utah and how extreme is the weather there?.
+           you would answer like this The state of Utah
+            relies heavily on income from tourists and travelers visiting the
+            state’s parks and ski resorts. Today, Utah State Parks manages 43
+            parks and several undeveloped areas totaling over 95, 000 acres
+            of land and more than 1, 000, 000 acres of water. With five national parks (Arches, Bryce Canyon, Canyonlands, Capitol Reef,
+            and Zion), Utah has the third most national parks of any state after
+            Alaska and California. Temperatures dropping below 0
+            ◦F should
+            be expected on occasion in most areas of the state most years.
+
+        """,
+    ),
+    ("human", "What are some interesting places in  Massachusetts?"),
+]
+llm.invoke(messages)
 
 def main(query_text, website_url):
     # Load, chunk, and index the contents of the website
