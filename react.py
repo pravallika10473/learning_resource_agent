@@ -4,7 +4,7 @@ from openai import OpenAI
 import re
 import httpx
 import json
-from function import search_youtube_videos
+from function import search_youtube_videos, transcript_analyzer
 from messages import system_message1, system_message2
 import argparse
 
@@ -39,6 +39,7 @@ class Agent:
     
 known_actions = {
     "search_youtube": search_youtube_videos,
+    "transcript_analyzer": transcript_analyzer
 }
 
 action_re = re.compile('^Action: (\w+): (.*)$')   # python regular expression to selection action
