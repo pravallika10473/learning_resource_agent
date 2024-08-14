@@ -61,10 +61,23 @@ def query(question, max_turns=10):
         if actions:
             # There is an action to run
             action, action_input = actions[0].groups()
+            # print("CHECKING", actions[0].groups())
             if action not in known_actions:
                 raise Exception("Unknown action: {}: {}".format(action, action_input))
             print(" -- running {} {}".format(action, action_input))
-            observation = known_actions[action](action_input)
+            if action_input.startswith('(') and action_input.endswith(')'):
+                try:
+                    parsed_input = eval(action_input)  # Converts "(a,b)" to tuple (a, b)  
+                except Exception as e:
+                    raise Exception("Invalid action input format: {}. Error: {}".format(action_input, str(e)))
+                
+                if isinstance(parsed_input, tuple):
+                    # Unpack the tuple when calling the action
+                    observation = known_actions[action](*parsed_input)
+                else:
+                    raise Exception("Expected a tuple, got: {}".format(type(parsed_input).__name__))
+            else:        
+                observation = known_actions[action](action_input)
             # print("Observation:", observation)
             next_prompt = "Observation: {}".format(observation)
         else:

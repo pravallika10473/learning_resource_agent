@@ -126,7 +126,7 @@ def search_youtube_videos(keyword, channel_id=None, filter_keywords=None):
 
     return results
 
-def transcript_analyzer(query_text, youtube_url=None, search_keyword=None):
+def transcript_analyzer(query_text=None, youtube_url=None, search_keyword=None):
     if youtube_url:
         transcript_text = get_transcript(youtube_url)
         if isinstance(transcript_text, str) and ("Invalid YouTube URL." in transcript_text or "Could not retrieve a transcript" in transcript_text):
@@ -150,10 +150,8 @@ def transcript_analyzer(query_text, youtube_url=None, search_keyword=None):
     context_text = "\n\n---\n\n".join([doc.page_content for doc, _score in results])
     prompt_template = ChatPromptTemplate.from_template(PROMPT_TEMPLATE)
     prompt = prompt_template.format(context=context_text, question=query_text)
-
-    model = ChatOpenAI()
-    response_text = model.invoke(prompt)
-    print(response_text.content)
+    # print("PROMPT:",prompt)
+    return prompt
 
 def generate_data_store():
     documents = load_documents()

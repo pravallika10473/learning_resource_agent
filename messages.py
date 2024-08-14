@@ -143,7 +143,7 @@ These resources should provide you with ample information on backpropagation fro
 Example session 2:
 
 Question: I didn't understand what Back Propagarion is in Andrej Karapathy Micrograd video
-Thought: I should first search for micrograd by Andrej Karapathy, and use that youtube link to call transcript_analyser with back propagation as query text and use the returned context to answer the whole question asked by user.
+Thought: I should first search for micrograd by Andrej Karapathy, and call transcript_analyser with back propagation as query text and returned youtube url as another parameter and use the returned context to answer the whole question asked by user.
 Action: search_youtube: Micrograd  video by Andrej Karapathy
 PAUSE
 you will be called again with this
@@ -165,7 +165,7 @@ Observation:[
         "link": "https://www.youtube.com/watch?v=HVsajVaabJ8"
     }
 ]
-Action: transcript_analyzer: Back Propagation
+Action: transcript_analyzer: ("Back Propagation" ,"https://www.youtube.com/watch?v=VMj-3S1tku0")
 PAUSE
 
 you will be called again with this
