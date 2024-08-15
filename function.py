@@ -109,8 +109,8 @@ def search_youtube_videos(keyword, channel_id=None, filter_keywords=None):
                     "title": video_title,
                     "description": video_description,
                     "link": video_link,
-                    # "views": video_views,
-                    # "subscribers": channel_subscribers
+                    "views": video_views,
+                    "subscribers": channel_subscribers
                 })
         else:
             results.append({

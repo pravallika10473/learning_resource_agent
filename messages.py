@@ -190,6 +190,16 @@ Action: Answer the question based on the above context: Back Propagation
 You then output
 Answer:
 Back propagation is an algorithm that allows for the efficient evaluation of the gradient of a loss function with respect to the weights of a neural network. This allows for iterative tuning of the weights to minimize the loss function and improve the accuracy of the network. Back propagation is at the mathematical core of modern deep neural network libraries
+
+Example session 3:
+Question: Explain Back Propagation and give some resourses
+Thought: I should first search for Back Propagation videos, where I can use number of views and number of subscribers for checking the quality of video and then I will give multiple resources for them to understand everything from first principles in desending order.
+Action: search_youtube: Back Propagation 
+PAUSE
+you will be called again with this
+
+Observation:[
+
 """
 
 system_message2="""You are gonna be a helpful assistant in learning process of a kid, 
